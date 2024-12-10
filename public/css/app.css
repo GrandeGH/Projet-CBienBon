@@ -11847,16 +11847,15 @@ textarea.form-control-lg {
 }
 body {
   margin: 0;
-  background-color: grey;
+  background-color: black;
+  color: white;
 }
 
 header {
   width: 100%;
   height: 100vh;
-  background-image: url(/public/img/hero-bg.jpg);
   background-position: center;
   object-fit: cover;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   position: fixed;
 }
 
@@ -11881,9 +11880,16 @@ nav {
 
 .section1 {
   height: 100%;
-  height: 65em;
+  height: 60em;
   background-image: url(/public/img/hero-bg.jpg);
+  background-position: center;
   background-repeat: no-repeat;
+}
+
+.section2 {
+  height: 100%;
+  height: 50em;
+  background-image: url(/public/img/about-bg.jpg);
 }
 
 /*# sourceMappingURL=app.css.map */
