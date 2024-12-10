@@ -9,23 +9,6 @@
 <body>
     <!-- ------------------En-tête--------------------- -->
     <header>
-        <!-- <nav>
-            <div>
-                <h1>CBIENBON</h1>
-            </div>
-            <ul>
-                <li><a href="#Home">Home</a></li>
-                <li><a href="#About">About</a></li>
-                <li><a href="#Menu">Menu</a></li>
-                <li><a href="#Events">Events</a></li>
-                <li><a href="#Gallery">Gallery</a></li>
-                <li><a href="#Chefs">Chefs</a></li>
-                <li><a href="#Contact">Contact</a></li>
-            </ul>
-            <div>
-                <button type="button" class="bookatable">Book a Table</button>
-            </div>
-        </nav> -->
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid d-flex">
               <a class="navbar-brand text-light fs-3" href="#">CBIENBON</a>
@@ -128,11 +111,55 @@
     </section>
     <!-- ------------------Menu--------------------- -->
     <section class="section3" id="Menu">
-        <h6>MENU</h6>
-        <h2>Check Our Tasty Menu</h2>
+        <div></div>
+            <h6>MENU</h6>
+            <h2>Check Our Tasty Menu</h2>
+        </div>
         <nav>
-
+            <ul>
+                <li><a href="">All</a></li>
+                <li><a href="">Starters</a></li>
+                <li><a href="">Salads</a></li>
+                <li><a href="">Speciality</a></li>
+            </ul>
         </nav>
+        <div>
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div class="listemenu d-flex gap-3">
+                            <img class="imgmenu d-flex flex-column" src="/public/img/menu/lobster-bisque.jpg" alt="">
+                            <div class="d-flex flex-row">
+                                <h4>Lobster Bisque</h4>
+                                <div class="dotted"></div>
+                                <div>$5.95</div>
+                            </div>
+                            <div>
+                                <p>Lorem ipsum dolor sit amet.</p>
+                            </div>
+                        </div>
+                        <div>
+                            
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                        <div>
+
+                        </div>
+                    </div>
+                  <div class="col">
+                    One of three columns
+                  </div>
+                </div>
+              </div>
+        </div>
     </section>
     <!-- ------------------Events--------------------- -->
     <section class="section4" id="Events">
@@ -141,18 +168,173 @@
             <h2>Organize Your Events in our Restaurant</h2>
         </div>
         <div>
-            <!-- Caroussel -->
-        </div>
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active d-flex gap-4 m-5">
+
+                    <div class="col">
+                        <img src="/public/img/event-custom.jpg" class="carouselimg" alt="...">
+                        </div>
+                        <div class="pe-5 col">
+                            <h3 class="jaunebrun">Custom Parties</h3>
+                            <h3><u>$99</u></h3>
+                            <p><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, dignissimos delectus. Facilis facere impedit debitis deleniti! Praesentium magni maiores veniam iure assumenda.</i></p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem sapiente officiis! Nobis, nihil aspernatur.</p>
+                        </div>
+                    </div>
+                  <div class="carousel-item">
+                    <div class="col">
+                        <img src="/public/img/event-custom.jpg" class="carouselimg" alt="...">
+                        </div>
+                        <div class="pe-5 col">
+                            <h3 class="jaunebrun">Custom Parties</h3>
+                            <h3><u>$99</u></h3>
+                            <p><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, dignissimos delectus. Facilis facere impedit debitis deleniti! Praesentium magni maiores veniam iure assumenda.</i></p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem sapiente officiis! Nobis, nihil aspernatur.</p>
+                        </div>
+                    </div>                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!-- <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active d-flex gap-4 m-5">
+                        <div class="col">
+                        <img src="/public/img/event-custom.jpg" class="carouselimg" alt="...">
+                        </div>
+                        <div class="pe-5 col">
+                            <h3 class="jaunebrun">Custom Parties</h3>
+                            <h3><u>$99</u></h3>
+                            <p><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, dignissimos delectus. Facilis facere impedit debitis deleniti! Praesentium magni maiores veniam iure assumenda.</i></p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem sapiente officiis! Nobis, nihil aspernatur.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item active d-flex gap-4 m-5">
+                        <div class="col">
+                        <img src="/public/img/event-custom.jpg" class="carouselimg" alt="...">
+                        </div>
+                        <div class="pe-5 col">
+                            <h3 class="jaunebrun">Custom Parties</h3>
+                            <h3><u>$919</u></h3>
+                            <p><i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam, dignissimos delectus. Facilis facere impedit debitis deleniti! Praesentium magni maiores veniam iure assumenda.</i></p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque dolorem sapiente officiis! Nobis, nihil aspernatur.</p>
+                        </div>
+                    </div>
+                  <div class="carousel-item">
+                    <img src="..." class="" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Third slide label</h5>
+                      <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div> -->
+    <div>
         <div>
             <h6>RESERVATION</h6>
             <h2>Book a Table</h2>
         </div>
+        <div>
+            <div class="container text-center">
+            <div class="row">
+                <div class="col">
+                    <input class="inputreserve" type="text" placeholder="Your Name" class="">
+                </div>
+                <div class="col">
+                    <input class="inputreserve" type="text" placeholder="Your Email" class="">
+                </div>
+                <div class="col">
+                    <input class="inputreserve" type="text" placeholder="Your Phone" class="">
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <input class="inputreserve" type="text" placeholder="Date" class="">
+                    </div>
+                    <div class="col">
+                        <input class="inputreserve" type="text" placeholder="Time" class="">
+                    </div>
+                    <div class="col">
+                        <input class="inputreserve" type="text" placeholder="# of people" class="">
+                    </div>
+                    <div>
+                        <textarea class="inputreserve" placeholder="Message" name="" id="Reservation"></textarea>
+                    </div>
+                    <div class="mt-5">
+                        <button type="button" class="bookatablereserve">Book a Table</button>
+                    </div>
+                  </div>
+                </div>
+                <div>
+
+                </div>
+            </div>
+        </div>
+    </div>
     </section>
+
    <!-- ------------------Gallery--------------------- --> 
     <section class="section5" id="Gallery">
         <div>
             <h6>GALLERY</h6>
             <h2>Some photos from Our Restaurant</h2>
+        </div>
+        <div class="row">
+            <div class="galleryimg">
+                <img src="/public/img/gallery/gallery-1.jpg" width="100%;">
+            </div>
+    
+            <div class="galleryimg">
+                <img src="/public/img/gallery/gallery-2.jpg" width="100%;">
+            </div>
+    
+            <div class="galleryimg">
+                <img src="/public/img/gallery/gallery-3.jpg" width="100%;">
+            </div>
+
+            <div class="galleryimg">
+                <img src="/public/img/gallery/gallery-4.jpg" width="100%;">
+            </div>
         </div>
     </section>
 

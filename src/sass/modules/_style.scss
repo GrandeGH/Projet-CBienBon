@@ -102,5 +102,49 @@ nav {
 
 .section3 {
     width: 100%;
-    
+    height: 50em;
+}
+
+.imgmenu {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    border: gray solid 4px;
+}
+
+.listemenu {
+    // border-bottom: 3px dotted blue;
+}
+
+// ----- Events -------------------------------------------
+
+.section4 {
+    width: 100%;
+    height: 63em;
+}
+
+.carouselimg {
+    width: 100%;
+    height: 25em;
+}
+
+.inputreserve {
+    padding: 3px;
+    width: 100%;
+    border: 1.5px solid $jaunebrun;
+    background: transparent;
+    margin: 10px;
+}   
+
+#Reservation {
+    height: 100%;
+}
+
+.bookatablereserve {
+    background-color: $jaunebrun;
+    color: white;
+    border-radius: 50px;
+    padding: 7px;
+    padding-inline: 18px;
+    border: none;
 }
