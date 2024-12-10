@@ -11989,4 +11989,14 @@ nav {
   width: 100%;
 }
 
+.iconecontact {
+  text-align: center;
+  background-color: rgb(168, 130, 63);
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  padding-top: 6px;
+  margin-bottom: 10px;
+}
+
 /*# sourceMappingURL=app.css.map */
