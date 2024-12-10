@@ -148,3 +148,33 @@ nav {
     padding-inline: 18px;
     border: none;
 }
+
+// ----- Gallery -------------------------------------------
+
+.section5 {
+    width: 100%;
+    height: 40em;
+}
+
+.gallery {
+    display: grid;
+    display: flex;
+}
+
+.galleryimg {
+	float: left;
+	width: 25%;
+    border: 2px gray solid;
+}
+
+// ----- Chefs -------------------------------------------
+
+.section6 {
+    width: 100%;
+}
+
+// ----- Contact -------------------------------------------
+
+.section7 {
+    width: 100%;
+}

@@ -11965,4 +11965,28 @@ nav {
   border: none;
 }
 
+.section5 {
+  width: 100%;
+  height: 40em;
+}
+
+.gallery {
+  display: grid;
+  display: flex;
+}
+
+.galleryimg {
+  float: left;
+  width: 25%;
+  border: 2px gray solid;
+}
+
+.section6 {
+  width: 100%;
+}
+
+.section7 {
+  width: 100%;
+}
+
 /*# sourceMappingURL=app.css.map */
