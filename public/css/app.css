@@ -11851,6 +11851,10 @@ body {
   color: white;
 }
 
+.jaunebrun {
+  color: rgb(196, 184, 112);
+}
+
 header {
   width: 100%;
   height: 100vh;
@@ -11867,6 +11871,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: gray solid 1px;
 }
 
 .bookatable {
@@ -11880,16 +11885,45 @@ nav {
 
 .section1 {
   height: 100%;
-  height: 60em;
-  background-image: url(/public/img/hero-bg.jpg);
+  height: 40em;
+  background-image: url(/public/img/hero-bg.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .section2 {
   height: 100%;
-  height: 50em;
-  background-image: url(/public/img/about-bg.jpg);
+  height: 60em;
+  background-image: url(/public/img/about-bg.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  background-blend-mode: overlay;
+  background-position: center;
+}
+
+.imgabout {
+  width: 100%;
+  height: 23em;
+  border: solid 5px gray;
+}
+
+.whyus1 {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.whyus2 {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  width: 28%;
+  height: 17em;
+  background-color: rgb(43, 43, 43);
+}
+
+.section3 {
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */

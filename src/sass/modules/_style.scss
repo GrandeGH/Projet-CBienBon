@@ -4,6 +4,10 @@ body {
     color: white;
 }
 
+.jaunebrun {
+    color: $jaunebrun;
+}
+
 // -----en tête-------------------------------------------
 header {
     width: 100%;
@@ -22,6 +26,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-bottom: gray solid 1px;
 }
 
 // nav ul {
@@ -47,8 +52,9 @@ nav {
 
 .section1 {
     height: 100%;
-    height: 60em;
-    background-image: url(/public/img/hero-bg.jpg);
+    height: 40em;
+    background-image: url(/public/img/hero-bg.jpg), linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -57,10 +63,46 @@ nav {
     // background: rgba($color: #000000, $alpha: 0.5);
 }
 
-// ----- Home -------------------------------------------
+// ----- About -------------------------------------------
 
 .section2 {
     height: 100%;
-    height: 50em;
-    background-image: url(/public/img/about-bg.jpg);
+    height: 60em;
+    background-image: url(/public/img/about-bg.jpg), linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+    background-blend-mode: overlay;
+    background-position: center;
+}
+
+// ----- Why Us --------
+
+
+
+.imgabout {
+    width: 100%;
+    height: 23em;
+    border: solid 5px gray;
+}
+
+.whyus1 {
+    @include espace;
+}
+
+.whyus2 {
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 28%;    
+    height: 17em;
+    background-color: rgb(43, 43, 43);
+}
+
+
+
+// ----- Menu -------------------------------------------
+
+
+.section3 {
+    width: 100%;
+    
 }
