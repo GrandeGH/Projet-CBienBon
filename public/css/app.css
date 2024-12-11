@@ -11918,9 +11918,14 @@ nav {
   position: relative;
 }
 
-.img-container:hover .imgabout, .img-container:hover .flèche-haut, .img-container:hover .flèche-bas {
+.img-container:hover .imgabout {
   transform: scale(1.1);
   transition: 0.5s;
+}
+
+.img-container:hover .flèche-haut, .img-container:hover .flèche-bas {
+  transform: scale(1.3);
+  transition: 0.4s ease-in-out;
 }
 
 .imgabout {
@@ -11928,23 +11933,21 @@ nav {
 }
 
 .flèche-haut {
-  transform: scale(1.03);
-  transition: 0.5;
-  padding: 2rem;
+  transition: 0.5s;
+  padding: 3rem;
   z-index: 2;
   border-left: 0.3rem solid;
   border-top: 0.3rem solid;
   width: 2rem;
   position: absolute;
   top: 1.5rem;
-  left: 2rem;
+  left: 2.5rem;
   border-color: rgb(212, 170, 98);
 }
 
 .flèche-bas {
-  transform: scale(1.03);
-  transition: 0.5;
-  padding: 2rem;
+  transition: 0.5s;
+  padding: 3rem;
   z-index: 2;
   border-bottom: 0.3rem solid;
   border-right: 0.3rem solid;
