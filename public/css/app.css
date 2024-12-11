@@ -11944,15 +11944,14 @@ nav {
   border: gray solid 4px;
 }
 
-:root {
-  --themeBG: #1d1e22;
-  --themeFont: #efefef;
+.listemenu {
+  width: 50%;
 }
 
-.dot {
+.dott {
   vertical-align: bottom;
-  background-image: radial-gradient(var(--themeFont) 1px, var(--themeBG) 0px);
-  background-size: 8px 8px;
+  background-image: radial-gradient(circle closest-side, #555555 99%, transparent 1%);
+  background-size: 3px 3px;
   background-repeat: repeat-x;
   background-position: left 90%;
   flex-grow: 2;
