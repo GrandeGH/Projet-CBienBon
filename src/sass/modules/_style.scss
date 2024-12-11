@@ -12,6 +12,12 @@ body {
     color: $jaunebrun;
 }
 
+.serif, h2 {
+    font-family: $serif;
+    font-weight: bold;
+    color: $jaunebrun;
+}
+
 // -----en tête-------------------------------------------
 header {
     width: 100%;
@@ -191,4 +197,19 @@ nav {
     border-radius: 30px;
     padding-top: 6px;
     margin-bottom: 10px;
+}
+
+.iconecontact2 {
+    text-align: center;
+    background-color: $jaunebrun;
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    padding-top: 6px;
+    margin-bottom: 10px;
+}
+
+.chevronright {
+    color: $jaunebrun;
+
 }
