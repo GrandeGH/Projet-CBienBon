@@ -122,15 +122,25 @@ nav {
     border: gray solid 4px;
 }
 
-.listemenu {
-    // border-bottom: 3px dotted blue;
+:root {
+    --themeBG: #1d1e22;
+    --themeFont: #efefef;
+  }
+
+.dot{
+    vertical-align: bottom;
+    background-image: radial-gradient(var(--themeFont) 1px, var(--themeBG) 0px);
+    background-size: 8px 8px;
+    background-repeat: repeat-x;
+    background-position: left 90%;
+    flex-grow: 2;
 }
 
 // ----- Events -------------------------------------------
 
 .section4 {
     width: 100%;
-    height: 63em;
+    height: 67em;
 }
 
 .carouselimg {

@@ -11856,13 +11856,13 @@ body {
 }
 
 .jaunebrun {
-  color: rgb(168, 130, 63);
+  color: rgb(194, 151, 77);
 }
 
 .serif, h2, .h2 {
   font-family: "Times New Roman", Times, serif;
   font-weight: bold;
-  color: rgb(168, 130, 63);
+  color: rgb(194, 151, 77);
 }
 
 header {
@@ -11890,7 +11890,7 @@ nav {
   border-radius: 30px;
   padding: 5px;
   padding-inline: 25px;
-  border: rgb(168, 130, 63) solid;
+  border: rgb(194, 151, 77) solid;
 }
 
 .section1 {
@@ -11944,9 +11944,23 @@ nav {
   border: gray solid 4px;
 }
 
+:root {
+  --themeBG: #1d1e22;
+  --themeFont: #efefef;
+}
+
+.dot {
+  vertical-align: bottom;
+  background-image: radial-gradient(var(--themeFont) 1px, var(--themeBG) 0px);
+  background-size: 8px 8px;
+  background-repeat: repeat-x;
+  background-position: left 90%;
+  flex-grow: 2;
+}
+
 .section4 {
   width: 100%;
-  height: 63em;
+  height: 67em;
 }
 
 .carouselimg {
@@ -11957,7 +11971,7 @@ nav {
 .inputreserve {
   padding: 3px;
   width: 100%;
-  border: 1.5px solid rgb(168, 130, 63);
+  border: 1.5px solid rgb(194, 151, 77);
   background: transparent;
   margin: 10px;
 }
@@ -11967,7 +11981,7 @@ nav {
 }
 
 .bookatablereserve {
-  background-color: rgb(168, 130, 63);
+  background-color: rgb(194, 151, 77);
   color: white;
   border-radius: 50px;
   padding: 7px;
@@ -12009,7 +12023,7 @@ nav {
 
 .iconecontact {
   text-align: center;
-  background-color: rgb(168, 130, 63);
+  background-color: rgb(194, 151, 77);
   width: 40px;
   height: 40px;
   border-radius: 30px;
@@ -12028,7 +12042,7 @@ nav {
 }
 
 .chevronright {
-  color: rgb(168, 130, 63);
+  color: rgb(194, 151, 77);
 }
 
 /*# sourceMappingURL=app.css.map */
