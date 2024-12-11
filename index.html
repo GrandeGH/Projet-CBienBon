@@ -59,9 +59,11 @@
                     <p><span></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa et corrupti fugit odio, molestias quam quod fuga voluptas provident!</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed iusto aliquam debitis? Porro, doloremque quidem aperiam, molestiae similique modi molestias recusandae ullam dolorem, vel tempore non saepe eum explicabo rem!    </p>
                   </div>
-                  <div class="col">
+                  <div class="img-container col">
+                    <div class="flèche-haut"></div>
                     <img class="imgabout" src="/public/img/about.jpg" alt="">
-                  </div>
+                    <div class="flèche-bas"></div>
+                </div>
                 </div>
             </div>
 
@@ -98,24 +100,29 @@
         </div>
 
 
-
-
-        <nav>
-            <div class="nav nav-tabs" id="nav-tab" role="tablist">
-              <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">All</button>
-              <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Starts</button>
-              <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Salads</button>
-              <button class="nav-link" id="nav-disabled-tab" data-bs-toggle="tab" data-bs-target="#nav-disabled" type="button" role="tab" aria-controls="nav-disabled" aria-selected="false">Special</button>
+        <nav class="d-flex justify-content-center">
+            <div class="nav" id="nav-tab" role="tablist">
+              <button class="nav-link active" id="nav-all-tab" data-bs-toggle="tab" data-bs-target="#nav-all" type="button" role="tab" aria-controls="nav-all" aria-selected="true">All</button>
+              <button class="nav-link" id="nav-starts-tab" data-bs-toggle="tab" data-bs-target="#nav-starts" type="button" role="tab" aria-controls="nav-starts" aria-selected="false">Starts</button>
+              <button class="nav-link" id="nav-salads-tab" data-bs-toggle="tab" data-bs-target="#nav-salads" type="button" role="tab" aria-controls="nav-salads" aria-selected="false">Salads</button>
+              <button class="nav-link" id="nav-special-tab" data-bs-toggle="tab" data-bs-target="#nav-special" type="button" role="tab" aria-controls="nav-special" aria-selected="false">Special</button>
             </div>
           </nav>
           <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
                 
             </div>
-            <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">...</div>
-            <div class="tab-pane fade" id="nav-disabled" role="tabpanel" aria-labelledby="nav-disabled-tab" tabindex="0">...</div>
-          </div>
+            <div class="tab-pane fade" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab" tabindex="0">Test</div>
+            <div class="tab-pane fade" id="nav-starts" role="tabpanel" aria-labelledby="nav-starts-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="nav-salads" role="tabpanel" aria-labelledby="nav-salads-tab" tabindex="0">...</div>
+            <div class="tab-pane fade" id="nav-special" role="tabpanel" aria-labelledby="nav-special-tab" tabindex="0">...</div>
+        </div>
+
+
+
+
+
+
         <div>
             <div class="container d-flex gap-5">
                 <!-- colonne 1 du menu -->
