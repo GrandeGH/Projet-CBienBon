@@ -70,7 +70,32 @@ nav {
     background-position: center;
 }
 
+.iconcheck {
+    color: $jaunebrun;
+}
+
+.img-container {
+    position: relative;
+}
+
+.img-container:hover {
+    .imgabout, .flèche-haut, .flèche-bas {
+        transform: scale(1.10);
+        transition: 0.5s;
+    }
+}
+
+.imgabout {
+    transition: 0.5s;
+}
+
+// .imgabout:hover {
+//     transform: scale(1.03);
+// }
+
+
 .flèche-haut {
+    transform: scale(1.03);
     transition: 0.5;
     padding: 2rem;
     z-index: 2;
@@ -79,15 +104,25 @@ nav {
     width: 2rem;
     position: absolute;
     top: 1.5rem;
-    left: 1.5rem;
+    left: 2rem;
     border-color: $jaunebrun;
 }
 
 .flèche-bas {
-
+    transform: scale(1.03);
+    transition:  0.5;
+    padding: 2rem;
+    z-index: 2;
+    border-bottom: 0.3rem solid;
+    border-right: 0.3rem solid;
+    width: 2rem;
+    position: absolute;
+    right: 2rem;
+    bottom: 1.5rem;
+    border-color: $jaunebrun;
 }
 
-// ----- Why Us --------
+// ----- Why Us --------------------
 
 .imgabout {
     width: 100%;

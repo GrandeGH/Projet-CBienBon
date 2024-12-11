@@ -11910,7 +11910,25 @@ nav {
   background-position: center;
 }
 
+.iconcheck {
+  color: rgb(212, 170, 98);
+}
+
+.img-container {
+  position: relative;
+}
+
+.img-container:hover .imgabout, .img-container:hover .flèche-haut, .img-container:hover .flèche-bas {
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+.imgabout {
+  transition: 0.5s;
+}
+
 .flèche-haut {
+  transform: scale(1.03);
   transition: 0.5;
   padding: 2rem;
   z-index: 2;
@@ -11919,7 +11937,21 @@ nav {
   width: 2rem;
   position: absolute;
   top: 1.5rem;
-  left: 1.5rem;
+  left: 2rem;
+  border-color: rgb(212, 170, 98);
+}
+
+.flèche-bas {
+  transform: scale(1.03);
+  transition: 0.5;
+  padding: 2rem;
+  z-index: 2;
+  border-bottom: 0.3rem solid;
+  border-right: 0.3rem solid;
+  width: 2rem;
+  position: absolute;
+  right: 2rem;
+  bottom: 1.5rem;
   border-color: rgb(212, 170, 98);
 }
 
