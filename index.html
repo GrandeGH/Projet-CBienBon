@@ -66,7 +66,7 @@
             </div>
 
         </div>
-        <div class="whyus my-5">
+        <div class="whyus m-5">
             <h6>WHY US</h6>
             <h2>Why Choose Our Restaurant</h2>
         </div>
@@ -92,20 +92,28 @@
     </section>
     <!-- ------------------Menu---------------------------------------------- -->
     <section class="section3" id="Menu">
-        <div class="ms-5"></div>
+        <div class="ms-5">
             <h6>MENU</h6>
             <h2>Check Our Tasty Menu</h2>
         </div>
-        <nav>
-            <ul>
-                <li><a href="">All</a></li>
-                <li><a href="">Starters</a></li>
-                <li><a href="">Salads</a></li>
-                <li><a href="">Speciality</a></li>
-            </ul>
-        </nav>
+
+
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">All</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Starters</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Salads</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-disabled="true">Speciality</a>
+            </li>
+        </ul>
         <div>
-            <div class="container d-flex gap-3">
+            <div class="container d-flex gap-5">
                 <!-- colonne 1 du menu -->
                 <div class="col">
                     <div class="row align-items-center my-5">
@@ -125,16 +133,50 @@
                             </div>
                         </div>               
                     </div>
-                    <div class="row align-items-center mb-5">
+                    <div class="row align-items-center my-5">
                         <div class=" d-flex align-items-center text-start gap-3">
                             <div>
-                                <img class="imgmenu" src="/public/img/menu/lobster-bisque.jpg" alt="">
+                                <img class="imgmenu" src="/public/img/menu/cake.jpg" alt="">
                             </div>
                             <div class="listemenu gap-3">
                                 <div class="d-flex justify-content-between">
-                                    <span class="nommenu">Lobster Bisque</span>
+                                    <span class="nommenu">Crab Cake</span>
                                     <span class="dott"></span>
-                                    <span class="menuprix">$5.95</span>
+                                    <span class="menuprix">$7.95</span>
+                                </div>
+                                <div>
+                                    <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>               
+                    </div>
+                    <div class="row align-items-center my-5">
+                        <div class=" d-flex align-items-center text-start gap-3">
+                            <div>
+                                <img class="imgmenu" src="/public/img/menu/tuscan-grilled.jpg" alt="">
+                            </div>      
+                            <div class="listemenu gap-3">
+                                <div class="d-flex justify-content-between">
+                                    <span class="nommenu">Tuscan Grilled</span>
+                                    <span class="dott"></span>
+                                    <span class="menuprix">$9.95</span>
+                                </div>
+                                <div>
+                                    <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                </div>
+                            </div>
+                        </div>               
+                    </div>
+                    <div class="row align-items-center my-5">
+                        <div class=" d-flex align-items-center text-start gap-3">
+                            <div>
+                                <img class="imgmenu" src="/public/img/menu/greek-salad.jpg" alt="">
+                            </div>
+                            <div class="listemenu gap-3">
+                                <div class="d-flex justify-content-between">
+                                    <span class="nommenu">Greek Salad</span>
+                                    <span class="dott"></span>
+                                    <span class="menuprix">$9.95</span>
                                 </div>
                                 <div>
                                     <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
@@ -145,47 +187,13 @@
                     <div class="row align-items-center mb-5">
                         <div class=" d-flex align-items-center text-start gap-3">
                             <div>
-                                <img class="imgmenu" src="/public/img/menu/lobster-bisque.jpg" alt="">
+                                <img class="imgmenu" src="/public/img/menu/lobster-roll.jpg" alt="">
                             </div>
                             <div class="listemenu gap-3">
                                 <div class="d-flex justify-content-between">
-                                    <span class="nommenu">Lobster Bisque</span>
+                                    <span class="nommenu">Lobster Roll</span>
                                     <span class="dott"></span>
-                                    <span class="menuprix">$5.95</span>
-                                </div>
-                                <div>
-                                    <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                </div>
-                            </div>
-                        </div>               
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class=" d-flex align-items-center text-start gap-3">
-                            <div>
-                                <img class="imgmenu" src="/public/img/menu/lobster-bisque.jpg" alt="">
-                            </div>
-                            <div class="listemenu gap-3">
-                                <div class="d-flex justify-content-between">
-                                    <span class="nommenu">Lobster Bisque</span>
-                                    <span class="dott"></span>
-                                    <span class="menuprix">$5.95</span>
-                                </div>
-                                <div>
-                                    <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                </div>
-                            </div>
-                        </div>               
-                    </div>
-                    <div class="row align-items-center mb-5">
-                        <div class=" d-flex align-items-center text-start gap-3">
-                            <div>
-                                <img class="imgmenu" src="/public/img/menu/lobster-bisque.jpg" alt="">
-                            </div>
-                            <div class="listemenu gap-3">
-                                <div class="d-flex justify-content-between">
-                                    <span class="nommenu">Lobster Bisque</span>
-                                    <span class="dott"></span>
-                                    <span class="menuprix">$5.95</span>
+                                    <span class="menuprix">$12.95</span>
                                 </div>
                                 <div>
                                     <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
@@ -200,13 +208,13 @@
                     <div class="row align-items-center my-5">
                         <div class=" d-flex align-items-center text-start gap-3">
                             <div>
-                                <img class="imgmenu" src="/public/img/menu/lobster-bisque.jpg" alt="">
+                                <img class="imgmenu" src="/public/img/menu/bread-barrel.jpg" alt="">
                             </div>
                             <div class="listemenu gap-3">
                                 <div class="d-flex justify-content-between">
-                                    <span class="nommenu">Lobster Bisque</span>
+                                    <span class="nommenu">Bread Barrel</span>
                                     <span class="dott"></span>
-                                    <span class="menuprix">$5.95</span>
+                                    <span class="menuprix">$6.95</span>
                                 </div>
                                 <div>
                                     <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
@@ -217,13 +225,13 @@
                     <div class="row align-items-center my-5">
                         <div class=" d-flex align-items-center text-start gap-3">
                             <div>
-                                <img class="imgmenu" src="/public/img/menu/lobster-bisque.jpg" alt="">
+                                <img class="imgmenu" src="/public/img/menu/caesar.jpg" alt="">
                             </div>
                             <div class="listemenu gap-3">
                                 <div class="d-flex justify-content-between">
-                                    <span class="nommenu">Lobster Bisque</span>
+                                    <span class="nommenu">Caesar Selections</span>
                                     <span class="dott"></span>
-                                    <span class="menuprix">$5.95</span>
+                                    <span class="menuprix">$8.95</span>
                                 </div>
                                 <div>
                                     <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
@@ -234,13 +242,13 @@
                     <div class="row align-items-center my-5">
                         <div class=" d-flex align-items-center text-start gap-3">
                             <div>
-                                <img class="imgmenu" src="/public/img/menu/lobster-bisque.jpg" alt="">
-                            </div>
+                                <img class="imgmenu" src="/public/img/menu/mozzarella.jpg" alt="">
+                            </div>      
                             <div class="listemenu gap-3">
                                 <div class="d-flex justify-content-between">
-                                    <span class="nommenu">Lobster Bisque</span>
+                                    <span class="nommenu">Mozzarella Stick</span>
                                     <span class="dott"></span>
-                                    <span class="menuprix">$5.95</span>
+                                    <span class="menuprix">$4.95</span>
                                 </div>
                                 <div>
                                     <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
@@ -251,13 +259,13 @@
                     <div class="row align-items-center my-5">
                         <div class=" d-flex align-items-center text-start gap-3">
                             <div>
-                                <img class="imgmenu" src="/public/img/menu/lobster-bisque.jpg" alt="">
+                                <img class="imgmenu" src="/public/img/menu/spinach-salad.jpg" alt="">
                             </div>
                             <div class="listemenu gap-3">
                                 <div class="d-flex justify-content-between">
-                                    <span class="nommenu">Lobster Bisque</span>
+                                    <span class="nommenu">Spinach Salad</span>
                                     <span class="dott"></span>
-                                    <span class="menuprix">$5.95</span>
+                                    <span class="menuprix">$9.95</span>
                                 </div>
                                 <div>
                                     <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
