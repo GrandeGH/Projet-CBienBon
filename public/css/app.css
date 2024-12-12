@@ -12091,12 +12091,20 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
 .gallery {
   display: grid;
   display: flex;
+  overflow: hidden;
 }
 
 .galleryimg {
   float: left;
   width: 25%;
   border: 2px gray solid;
+  border-collapse: collapse;
+  transition: 0.5s;
+}
+
+.galleryimg:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
 }
 
 .section6 {
