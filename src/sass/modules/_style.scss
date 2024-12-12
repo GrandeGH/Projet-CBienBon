@@ -149,8 +149,24 @@ nav {
     flex-direction: column;
     text-align: start;
     width: 28%;    
-    height: 17em;
+    height: 15em;
     background-color: rgb(43, 43, 43);
+}
+h3:nth-of-type(2) {
+    font-family: $serif;
+    font-weight: bold;
+}
+
+.whyus2:hover {
+    background-color: $jaunebrun;
+    .chiffreblanc {
+        color: white;
+    }
+}
+
+.chiffreblanc {
+    font-family: $serif;
+    font-size: 35px;
 }
 
 // ----- Menu -------------------------------------------
