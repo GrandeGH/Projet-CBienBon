@@ -11976,13 +11976,14 @@ nav {
 }
 
 .whyus2 {
-  padding: 25px;
+  padding: 28px;
   display: flex;
   flex-direction: column;
   text-align: start;
   width: 28%;
   height: 15em;
   background-color: rgb(43, 43, 43);
+  padding-top: 18px;
 }
 
 h3:nth-of-type(2), .h3:nth-of-type(2) {
@@ -11991,6 +11992,7 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
 }
 
 .whyus2:hover {
+  padding-top: 0px;
   background-color: rgb(212, 170, 98);
 }
 .whyus2:hover .chiffreblanc {
