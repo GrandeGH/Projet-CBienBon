@@ -263,8 +263,9 @@ h3:nth-of-type(2) {
 }
 
 .gallery {
-    display: grid;
+    // display: grid;
     display: flex;
+    flex-wrap: wrap;
     overflow: hidden;
 
 }
@@ -275,11 +276,10 @@ h3:nth-of-type(2) {
     border: 2px gray solid;
     border-collapse: collapse ;
     transition: 0.5s;
-
 }
 
 .galleryimg:hover {
-    transform: scale(1.10);
+    transform: scale(1.05);
     transition: 0.5s;
 }
 
