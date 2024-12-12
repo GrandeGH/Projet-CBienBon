@@ -12015,6 +12015,14 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
   font-weight: bold;
 }
 
+.navmenu:hover {
+  color: rgb(212, 170, 98); /* Texte blanc */
+}
+
+.navmenu.active {
+  color: rgb(212, 170, 98); /* Texte blanc */
+}
+
 .imgmenu {
   width: 70px;
   height: 70px;

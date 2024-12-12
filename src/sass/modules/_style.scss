@@ -41,6 +41,7 @@ nav {
 }
 
 
+
 .bookatable {
     color: white;
     background: transparent;
@@ -185,6 +186,15 @@ h3:nth-of-type(2) {
     color: white;
     font-weight: bold;
 }
+
+.navmenu:hover {
+    color: $jaunebrun; /* Texte blanc */
+  }
+  
+  .navmenu.active {
+    color: $jaunebrun; /* Texte blanc */
+  }
+
 
 .imgmenu {
     width: 70px;
