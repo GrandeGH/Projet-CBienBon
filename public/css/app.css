@@ -12109,12 +12109,14 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
 .galleryimg {
   float: left;
   width: 25%;
-  border: 2px gray solid;
+  border-bottom: 2px gray solid;
   border-collapse: collapse;
   transition: 0.5s;
+  border-right: 2px gray solid;
+  overflow: hidden;
 }
 
-.galleryimg:hover {
+.galleryimg2:hover {
   transform: scale(1.05);
   transition: 0.5s;
 }
@@ -12177,12 +12179,12 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
   border: none;
 }
 
-.arrow-up {
+.arrow-up a {
   font-size: 50px;
   color: rgb(212, 170, 98);
   position: fixed;
-  bottom: 18em;
-  right: 20em;
+  top: 10em;
+  left: 23.5em;
   z-index: 1000;
 }
 
