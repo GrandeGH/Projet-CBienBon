@@ -11889,7 +11889,6 @@ nav {
   background: transparent;
   border-radius: 30px;
   padding: 5px;
-  padding-inline: 25px;
   border: rgb(212, 170, 98) solid;
 }
 
@@ -11898,13 +11897,20 @@ nav {
   background-color: rgb(212, 170, 98);
 }
 
+.popup {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(212, 170, 98);
+}
+
 h2:nth-of-type(1), .h2:nth-of-type(1) {
   font-family: Arial, Helvetica, sans-serif;
 }
 
 .section1 {
-  height: 100%;
-  height: 45em;
+  width: 100%;
+  height: 43em;
   background-image: url(/public/img/hero-bg.jpg), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
   background-blend-mode: overlay;
   background-position: center;
@@ -11912,8 +11918,8 @@ h2:nth-of-type(1), .h2:nth-of-type(1) {
 }
 
 .section2 {
-  height: 100%;
-  height: 100%;
+  width: 100%;
+  height: auto;
   background-image: url(/public/img/about-bg.jpg), linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-blend-mode: overlay;
   background-position: center;
@@ -11940,6 +11946,12 @@ h2:nth-of-type(1), .h2:nth-of-type(1) {
 
 .imgabout {
   transition: 0.5s;
+}
+
+.imgabout {
+  width: 100%;
+  height: 23em;
+  border: solid 5px gray;
 }
 
 .flèche-haut {
@@ -11970,28 +11982,18 @@ h2:nth-of-type(1), .h2:nth-of-type(1) {
 
 .section2-2 {
   width: 100%;
-  height: 100%;
-}
-
-.imgabout {
-  width: 100%;
-  height: 23em;
-  border: solid 5px gray;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .whyus1 {
-  align-items: center;
-  justify-content: center;
-  display: flex;
+  width: 100%;
 }
 
 .whyus2 {
-  padding: 28px;
-  display: flex;
-  flex-direction: column;
-  text-align: start;
-  width: 28%;
-  height: 15em;
+  width: auto;
+  height: auto;
+  padding: 25px;
   background-color: rgb(43, 43, 43);
   padding-top: 18px;
 }
@@ -12016,7 +12018,7 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
 
 .section3 {
   width: 100%;
-  height: 55em;
+  height: auto;
 }
 
 .navmenu {
@@ -12108,27 +12110,17 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
 
 .section5 {
   width: 100%;
-  height: 40em;
-}
-
-.gallery {
-  display: flex;
-  flex-wrap: wrap;
-  overflow: hidden;
+  height: auto;
 }
 
 .galleryimg {
-  float: left;
-  width: 25%;
-  border-bottom: 2px gray solid;
-  border-collapse: collapse;
+  border: gray 2px solid;
   transition: 0.5s;
-  border-right: 2px gray solid;
   overflow: hidden;
 }
 
 .galleryimg2:hover {
-  transform: scale(1.05);
+  transform: scale(1.1);
   transition: 0.5s;
 }
 
@@ -12139,7 +12131,7 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
 
 .section7 {
   width: 100%;
-  height: 100%;
+  height: auto;
 }
 
 .cartegoogle {
@@ -12171,7 +12163,7 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
   height: 35px;
   border-radius: 30px;
   padding-top: 5px;
-  margin-bottom: 10px;
+  padding-left: 10px;
 }
 
 #Inputreserve {
@@ -12195,8 +12187,8 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
   font-size: 50px;
   color: rgb(212, 170, 98);
   position: fixed;
-  top: 10em;
-  left: 23.5em;
+  top: 11.5em;
+  left: 26em;
   z-index: 1000;
 }
 

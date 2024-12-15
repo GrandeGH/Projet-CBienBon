@@ -47,12 +47,18 @@ nav {
     background: transparent;
     border-radius: 30px;
     padding: 5px;
-    padding-inline: 25px;
     border: $jaunebrun solid;
 }
 
 .bookatable:hover {
     transition: 0.3s;
+    background-color: $jaunebrun;
+}
+
+.popup {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
     background-color: $jaunebrun;
 }
 
@@ -63,8 +69,8 @@ h2:nth-of-type(1) {
 }
 
 .section1 {
-    height: 100%;
-    height: 45em;
+    width: 100%;
+    height: 43em;
     background-image: url(/public/img/hero-bg.jpg), linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
     background-blend-mode: overlay;
     background-position: center;
@@ -75,8 +81,8 @@ h2:nth-of-type(1) {
 // ----- About -------------------------------------------
 
 .section2 {
-    height: 100%;
-    height: 100%;
+    width: 100%;
+    height: auto;
     background-image: url(/public/img/about-bg.jpg), linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7));
     background-blend-mode: overlay;
     background-position: center;
@@ -107,6 +113,12 @@ h2:nth-of-type(1) {
 
 .imgabout {
     transition: 0.5s;
+}
+
+.imgabout {
+    width: 100%;
+    height: 23em;
+    border: solid 5px gray;
 }
 
 .flèche-haut {
@@ -141,26 +153,18 @@ h2:nth-of-type(1) {
 
 .section2-2 {
     width: 100%;
-    height: 100%;
-}
-
-.imgabout {
-    width: 100%;
-    height: 23em;
-    border: solid 5px gray;
+    height: auto;
+    margin-bottom: 10px;
 }
 
 .whyus1 {
-    @include espace;
+    width: 100%;
 }
 
 .whyus2 {
-    padding: 28px;
-    display: flex;
-    flex-direction: column;
-    text-align: start;
-    width: 28%;    
-    height: 15em;
+    width: auto;
+    height: auto;
+    padding: 25px;
     background-color: rgb(43, 43, 43);
     padding-top: 18px;
 }
@@ -186,7 +190,7 @@ h3:nth-of-type(2) {
 
 .section3 {
     width: 100%;
-    height: 55em;
+    height: auto;
 }
 
 .navmenu {
@@ -283,28 +287,26 @@ h3:nth-of-type(2) {
 
 .section5 {
     width: 100%;
-    height: 40em;
+    height: auto;
 }
 
 .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    overflow: hidden;
-
+    // display: flex;
+    // flex-wrap: wrap;
 }
 
 .galleryimg {
-	float: left;
-	width: 25%;
-    border-bottom: 2px gray solid;
-    border-collapse: collapse ;
+    // border-bottom: 2px gray solid;
+    // border-right: 2px gray solid
+    border: gray 2px solid;
     transition: 0.5s;
-    border-right: 2px gray solid;
     overflow: hidden;
+}
+.galleryimg2 {
 }
 
 .galleryimg2:hover {
-    transform: scale(1.05);
+    transform: scale(1.10);
     transition: 0.5s;
 }
 
@@ -319,7 +321,7 @@ h3:nth-of-type(2) {
 
 .section7 {
     width: 100%;
-    height: 100%;
+    height: auto
 }
 
 .cartegoogle {
@@ -351,7 +353,7 @@ h3:nth-of-type(2) {
     height: 35px;
     border-radius: 30px;
     padding-top: 5px;
-    margin-bottom: 10px;
+    padding-left: 10px;
 }
 
 #Inputreserve {
@@ -376,7 +378,7 @@ h3:nth-of-type(2) {
     font-size: 50px;
     color: $jaunebrun;
     position: fixed;
-    top: 10em;
-    left: 23.5em;
+    top: 11.5em;
+    left: 26em;
     z-index: 1000;
 }

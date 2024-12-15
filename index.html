@@ -33,24 +33,34 @@
           </nav>
     </header>
     <!-- ------------------Home--------------------------------------- -->
-    <section class="section1 d-flex align-items-center " id="Home">
-        <div class="d-flex align-items-start flex-column ms-5">
-            <div>       
-                <h2 class="fw-bold text-light">Welcome to <span class="jaunebrun">CBIENBON</span></h2>
-                <h4 class="serif text-light">Delivering great food for more than 18 years!</h4>
+    <section class="section1 align-items-center d-flex" id="Home">
+        <!-- <div class="d-flex align-items-start flex-column ms-5"> -->
+        <div class="container row">
+            <div class="col-sm-1 col-md-1 col-xl-10 ms-5">
+                <div>       
+                    <h2 class="fw-bold text-light fs-1">Welcome to <span class="jaunebrun">CBIENBON</span></h2>
+                    <h4 class="serif text-light fs-2">Delivering great food for more than 18 years!</h4>
+                </div>
+                <div class="row">
+                    <div class="mt-3 col-md-1 col-xl-6">
+                        <button type="button" class="bookatable col-md-6 col-xl-4">Book a Table</button>
+                        <button type="button" class="bookatable col-md-6 col-xl-4">Our menu</button>
+                    </div>
+                </div>
             </div>
-            <div class="mt-3">
-                <button type="button" class="bookatable">Book a Table</button>
-                <button type="button" class="bookatable">Our menu</button>
+            <div class="col-sm-1 col-md-1 col-xl-1 mt-5">
+                <div class="popup"></div>
+                <button></button>
+                
             </div>
         </div>
     </section>
     <!-- ------------------About--------------------------------------- -->
-    <section class="section2 mt-5" id="About">
-        <div class="voluptetem">
-            <div class="col-sm container text-start">
-                <div class="row align-items-center">
-                  <div class="col">
+    <section class="section2" id="About">
+        <div class="voluptetem container ">
+            <div class="col-sm-1 col-xl-12">
+                <div class="row ">
+                  <div class="col my-5">
                     <h4 class="serif fw-bold">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda</h4>
                     <p><i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt, maiores sed iusto odio officiis nobis?</i></p>
                     <div class="d-flex gap-2">
@@ -68,35 +78,37 @@
                     <p><span></span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam culpa et corrupti fugit odio, molestias quam quod fuga voluptas provident!</p>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed iusto aliquam debitis? Porro, doloremque quidem aperiam, molestiae similique modi molestias recusandae ullam dolorem, vel tempore non saepe eum explicabo rem!    </p>
                   </div>
-                  <div class="img-container col">
-                    <div class="flèche-haut"></div>
-                    <img class="imgabout" src="/public/img/about.jpg" alt="">
-                    <div class="flèche-bas"></div>
-                </div>
+                  <div class="img-container col-sm-1 col-xl-5 my-5">
+                        <div class="flèche-haut"></div>
+                        <img class="imgabout" src="/public/img/about.jpg" alt="">
+                        <div class="flèche-bas"></div>
+                  </div>
                 </div>
             </div>
         </div>
     </section>
 
+<!-- whyus -------------->
+
     <section class="section2-2">
-        </div>
+    
         <div class="whyus m-5">
             <h6>WHY US</h6>
             <h2>Why Choose Our Restaurant</h2>
         </div>
-            <div class="whyus1 d-flex flex-row gap-5">
-                <div class="whyus2">
+        <div class="container">
+            <div class="whyus1 row gap-2">
+                <div class="whyus2 col-sm-1 col-md-2 col-xl-3 w-100">
                     <h3 class="chiffreblanc jaunebrun fw-bold">01</h3>
                     <h3>Lorem, ipsum.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae at provident aut impedit! In, corrupti.</p>
                 </div>
-                <div class="whyus2">
+                <div class="whyus2 col-sm-1 col-md-2 col-xl-3 w-100">
                     <h3 class="chiffreblanc jaunebrun fw-bold">02</h3>
                     <h3>Lorem, ipsum.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae at provident aut impedit! In, corrupti.</p>
-
                 </div>
-                <div class="whyus2">
+                <div class="whyus2 col-sm-1 col-md-2 col-xl-3 w-100">
                     <h3 class="chiffreblanc jaunebrun fw-bold">03</h3>
                     <h3>Lorem, ipsum.</h3>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae at provident aut impedit! In, corrupti.</p>
@@ -118,182 +130,15 @@
               <button class="navmenu nav-link" id="nav-salads-tab" data-bs-toggle="tab" data-bs-target="#nav-salads" type="button" role="tab" aria-controls="nav-salads" aria-selected="false">Salads</button>
               <button class="navmenu nav-link" id="nav-special-tab" data-bs-toggle="tab" data-bs-target="#nav-special" type="button" role="tab" aria-controls="nav-special" aria-selected="false">Special</button>
             </div>
-          </nav>
-          <div class="tab-content" id="nav-tabContent">
+        </nav>
+        <div class="tab-content" id="nav-tabContent">
             <div class="tab-pane fade show active" id="nav-all" role="tabpanel" aria-labelledby="nav-all-tab" tabindex="0">
-                <div>
-                    <div class="container d-flex gap-5">
-                        <!-- colonne 1 du menu -->
-                        <div class="col">
-                            <div class="row align-items-center my-5">
-                                <div class=" d-flex align-items-center text-start gap-3">
-                                    <div>
-                                        <img class="imgmenu" src="/public/img/menu/lobster-bisque.jpg" alt="">
-                                    </div>
-                                    <div class="listemenu gap-3">
-                                        <div class="d-flex justify-content-between">
-                                            <span class="nommenu">Lobster Bisque</span>
-                                            <span class="dott"></span>
-                                            <span class="menuprix">$5.95</span>
-                                        </div>
-                                        <div>
-                                            <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </div>               
-                            </div>
-                            <div class="row align-items-center my-5">
-                                <div class=" d-flex align-items-center text-start gap-3">
-                                    <div>
-                                        <img class="imgmenu" src="/public/img/menu/cake.jpg" alt="">
-                                    </div>
-                                    <div class="listemenu gap-3">
-                                        <div class="d-flex justify-content-between">
-                                            <span class="nommenu">Crab Cake</span>
-                                            <span class="dott"></span>
-                                            <span class="menuprix">$7.95</span>
-                                        </div>
-                                        <div>
-                                            <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </div>               
-                            </div>
-                            <div class="row align-items-center my-5">
-                                <div class=" d-flex align-items-center text-start gap-3">
-                                    <div>
-                                        <img class="imgmenu" src="/public/img/menu/tuscan-grilled.jpg" alt="">
-                                    </div>      
-                                    <div class="listemenu gap-3">
-                                        <div class="d-flex justify-content-between">
-                                            <span class="nommenu">Tuscan Grilled</span>
-                                            <span class="dott"></span>
-                                            <span class="menuprix">$9.95</span>
-                                        </div>
-                                        <div>
-                                            <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </div>               
-                            </div>
-                            <div class="row align-items-center my-5">
-                                <div class=" d-flex align-items-center text-start gap-3">
-                                    <div>
-                                        <img class="imgmenu" src="/public/img/menu/greek-salad.jpg" alt="">
-                                    </div>
-                                    <div class="listemenu gap-3">
-                                        <div class="d-flex justify-content-between">
-                                            <span class="nommenu">Greek Salad</span>
-                                            <span class="dott"></span>
-                                            <span class="menuprix">$9.95</span>
-                                        </div>
-                                        <div>
-                                            <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </div>               
-                            </div>
-                            <div class="row align-items-center mb-5">
-                                <div class=" d-flex align-items-center text-start gap-3">
-                                    <div>
-                                        <img class="imgmenu" src="/public/img/menu/lobster-roll.jpg" alt="">
-                                    </div>
-                                    <div class="listemenu gap-3">
-                                        <div class="d-flex justify-content-between">
-                                            <span class="nommenu">Lobster Roll</span>
-                                            <span class="dott"></span>
-                                            <span class="menuprix">$12.95</span>
-                                        </div>
-                                        <div>
-                                            <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </div>               
-                            </div>
-                        </div>
-                                                <!-- colonne 2 du menu -->
-                       
-                        <div class="col">
-                            <div class="row align-items-center my-5">
-                                <div class=" d-flex align-items-center text-start gap-3">
-                                    <div>
-                                        <img class="imgmenu" src="/public/img/menu/bread-barrel.jpg" alt="">
-                                    </div>
-                                    <div class="listemenu gap-3">
-                                        <div class="d-flex justify-content-between">
-                                            <span class="nommenu">Bread Barrel</span>
-                                            <span class="dott"></span>
-                                            <span class="menuprix">$6.95</span>
-                                        </div>
-                                        <div>
-                                            <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </div>               
-                            </div>
-                            <div class="row align-items-center my-5">
-                                <div class=" d-flex align-items-center text-start gap-3">
-                                    <div>
-                                        <img class="imgmenu" src="/public/img/menu/caesar.jpg" alt="">
-                                    </div>
-                                    <div class="listemenu gap-3">
-                                        <div class="d-flex justify-content-between">
-                                            <span class="nommenu">Caesar Selections</span>
-                                            <span class="dott"></span>
-                                            <span class="menuprix">$8.95</span>
-                                        </div>
-                                        <div>
-                                            <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </div>               
-                            </div>
-                            <div class="row align-items-center my-5">
-                                <div class=" d-flex align-items-center text-start gap-3">
-                                    <div>
-                                        <img class="imgmenu" src="/public/img/menu/mozzarella.jpg" alt="">
-                                    </div>      
-                                    <div class="listemenu gap-3">
-                                        <div class="d-flex justify-content-between">
-                                            <span class="nommenu">Mozzarella Stick</span>
-                                            <span class="dott"></span>
-                                            <span class="menuprix">$4.95</span>
-                                        </div>
-                                        <div>
-                                            <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </div>               
-                            </div>
-                            <div class="row align-items-center my-5">
-                                <div class=" d-flex align-items-center text-start gap-3">
-                                    <div>
-                                        <img class="imgmenu" src="/public/img/menu/spinach-salad.jpg" alt="">
-                                    </div>
-                                    <div class="listemenu gap-3">
-                                        <div class="d-flex justify-content-between">
-                                            <span class="nommenu">Spinach Salad</span>
-                                            <span class="dott"></span>
-                                            <span class="menuprix">$9.95</span>
-                                        </div>
-                                        <div>
-                                            <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                        </div>
-                                    </div>
-                                </div>               
-                            </div>
-                        </div>
-                        
-                      </div>
-                </div>
-            </div>
-            <!-- menu starter -->
-            <div class="tab-pane fade" id="nav-starts" role="tabpanel" aria-labelledby="nav-starts-tab" tabindex="0">
-                <div class="container d-flex gap-5">
-                    <!-- colonne 1 du menu -->
-                    <div class="col">
-                        <div class="row align-items-center my-5">
-                            <div class=" d-flex align-items-center text-start gap-3">
+                <div class="container">
+                    <!-- plat 1 & 2 -->
+                    <div class="row">
+                     <!-- lobster bisque colonne 1-->
+                        <div class="col-xl-6 my-4">
+                            <div class="d-flex gap-3">
                                 <div>
                                     <img class="imgmenu" src="/public/img/menu/lobster-bisque.jpg" alt="">
                                 </div>
@@ -309,25 +154,217 @@
                                 </div>
                             </div>               
                         </div>
-                        <div class=" d-flex align-items-center text-start gap-3">
-                            <div>
-                                <img class="imgmenu" src="/public/img/menu/mozzarella.jpg" alt="">
-                            </div>      
-                            <div class="listemenu gap-3">
-                                <div class="d-flex justify-content-between">
-                                    <span class="nommenu">Mozzarella Stick</span>
-                                    <span class="dott"></span>
-                                    <span class="menuprix">$4.95</span>
-                                </div>
+                        <!-- bread barrel colonne 2-->
+                        <div class="col-xl-6 my-4">
+                            <div class="d-flex text-start gap-3">
                                 <div>
-                                    <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    <img class="imgmenu" src="/public/img/menu/bread-barrel.jpg" alt="">
                                 </div>
-                            </div>
-                        </div> 
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Bread Barrel</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$6.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
                     </div>
-                
-                    <div class="col">
-                        <div class="row align-items-center my-5">
+                    
+
+                    <!-- plat 3 & 4 -->
+                    <div class="row">
+                        <!-- crab cake colonne 1-->
+                        <div class="col-xl-6 my-4">
+                            <div class=" d-flex align-items-center text-start gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/cake.jpg" alt="">
+                                </div>
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Crab Cake</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$7.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                        <!-- ceasar selection colonne 2-->
+                        <div class="col-xl-6 my-4">
+                            <div class=" d-flex align-items-center text-start gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/caesar.jpg" alt="">
+                                </div>
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Caesar Selections</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$8.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                    </div>
+
+                    <!-- plat 5 & 6 -->
+                    <div class="row">
+                        <!-- tuscan grilled colonne 1 -->
+                        <div class="col-xl-6 my-4">
+                            <div class=" d-flex align-items-center text-start gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/tuscan-grilled.jpg" alt="">
+                                </div>      
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Tuscan Grilled</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$9.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                        <!-- mozzarella stick colonne 2-->
+                        <div class="col-xl-6 my-4">
+                            <div class=" d-flex align-items-center text-start gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/mozzarella.jpg" alt="">
+                                </div>      
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Mozzarella Stick</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$4.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                    </div>
+
+                    <!-- plat 7 & 8 -->
+                    <div class="row">
+                        <!-- greek-salad colonne 1-->
+                        <div class="col-xl-6 my-4">
+                            <div class=" d-flex align-items-center text-start gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/greek-salad.jpg" alt="">
+                                </div>
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Greek Salad</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$9.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                        <!-- spinach salad colonne 2-->
+                        <div class="col-xl-6 my-4">
+                            <div class=" d-flex align-items-center text-start gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/spinach-salad.jpg" alt="">
+                                </div>
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Spinach Salad</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$9.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>  
+                    </div>
+
+                    <!-- plat 9 -->
+                    <div class="row">
+                        <!-- lobster-roll colonne 1-->
+                        <div class="col-xl-6 my-4">
+                            <div class=" d-flex align-items-center text-start gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/lobster-roll.jpg" alt="">
+                                </div>
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Lobster Roll</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$12.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- menu starter -->
+            <div class="tab-pane fade" id="nav-starts" role="tabpanel" aria-labelledby="nav-starts-tab" tabindex="0">
+                <div class="container">
+                    <!-- plat 1 & 2 -->
+                    <div class="row">
+                     <!-- lobster bisque colonne 1-->
+                        <div class="col-xl-6 my-4">
+                            <div class="d-flex gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/lobster-bisque.jpg" alt="">
+                                </div>
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Lobster Bisque</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$5.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                        <!-- bread barrel colonne 2-->
+                        <div class="col-xl-6 my-4">
+                            <div class="d-flex text-start gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/bread-barrel.jpg" alt="">
+                                </div>
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Bread Barrel</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$6.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                    </div>
+                    <!-- plat 3-->
+                    <div class="row">
+                        <!-- crab cake colonne 1-->
+                        <div class="col-xl-6 my-4">
                             <div class=" d-flex align-items-center text-start gap-3">
                                 <div>
                                     <img class="imgmenu" src="/public/img/menu/cake.jpg" alt="">
@@ -348,14 +385,13 @@
                 </div>
             </div>
 
-
-
+            <!-- menu Salads -->
             <div class="tab-pane fade" id="nav-salads" role="tabpanel" aria-labelledby="nav-salads-tab" tabindex="0">    
-            <!-- menu salad -->
-                <div class="container d-flex gap-5">
-                    <!-- colonne 1 du menu -->
-                    <div class="col">
-                        <div class="row align-items-center my-5">
+                <div class="container">
+                    <!-- plat 1 & 2 -->
+                    <div class="row">
+                        <!-- ceasar selection colonne 1-->
+                        <div class="col-xl-6 my-4">
                             <div class=" d-flex align-items-center text-start gap-3">
                                 <div>
                                     <img class="imgmenu" src="/public/img/menu/caesar.jpg" alt="">
@@ -372,27 +408,8 @@
                                 </div>
                             </div>               
                         </div>
-                        <div class="row align-items-center my-5">
-                            <div class=" d-flex align-items-center text-start gap-3">
-                                <div>
-                                    <img class="imgmenu" src="/public/img/menu/spinach-salad.jpg" alt="">
-                                </div>
-                                <div class="listemenu gap-3">
-                                    <div class="d-flex justify-content-between">
-                                        <span class="nommenu">Spinach Salad</span>
-                                        <span class="dott"></span>
-                                        <span class="menuprix">$9.95</span>
-                                    </div>
-                                    <div>
-                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                    </div>
-                                </div>
-                            </div>               
-                        </div>
-                    </div>
-                
-                    <div class="col">
-                        <div class="row align-items-center my-5">
+                        <!-- greek-salad colonne 2-->
+                        <div class="col-xl-6 my-4">
                             <div class=" d-flex align-items-center text-start gap-3">
                                 <div>
                                     <img class="imgmenu" src="/public/img/menu/greek-salad.jpg" alt="">
@@ -410,52 +427,36 @@
                             </div>               
                         </div>
                     </div>
+                    <!-- plat 3-->
+                    <div class="row">
+                      <!-- spinach salad colonne 2-->
+                        <div class="col-xl-6 my-4">
+                            <div class=" d-flex align-items-center text-start gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/spinach-salad.jpg" alt="">
+                                </div>
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Spinach Salad</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$9.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>  
+                    </div>
                 </div>
             </div>
-
-
+            <!-- menu Special -->
             <div class="tab-pane fade" id="nav-special" role="tabpanel" aria-labelledby="nav-special-tab" tabindex="0">
-                <div class="container d-flex gap-5">
-                    <!-- colonne 1 du menu -->
-                    <div class="col">
-                        <div class="row align-items-center my-5">
-                            <div class=" d-flex align-items-center text-start gap-3">
-                                <div>
-                                    <img class="imgmenu" src="/public/img/menu/bread-barrel.jpg" alt="">
-                                </div>
-                                <div class="listemenu gap-3">
-                                    <div class="d-flex justify-content-between">
-                                        <span class="nommenu">Bread Barrel</span>
-                                        <span class="dott"></span>
-                                        <span class="menuprix">$6.95</span>
-                                    </div>
-                                    <div>
-                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                    </div>
-                                </div>
-                            </div>               
-                        </div>
-                        <div class="row align-items-center mb-5">
-                            <div class=" d-flex align-items-center text-start gap-3">
-                                <div>
-                                    <img class="imgmenu" src="/public/img/menu/lobster-roll.jpg" alt="">
-                                </div>
-                                <div class="listemenu gap-3">
-                                    <div class="d-flex justify-content-between">
-                                        <span class="nommenu">Lobster Roll</span>
-                                        <span class="dott"></span>
-                                        <span class="menuprix">$12.95</span>
-                                    </div>
-                                    <div>
-                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
-                                    </div>
-                                </div>
-                            </div>               
-                        </div>
-                    </div>
-                
-                    <div class="col">
-                        <div class="row align-items-center my-5">
+                <div class="container">
+                    <!-- plat 1 & 2 -->
+                    <div class="row">
+                      <!-- tuscan grilled colonne 1 -->
+                        <div class="col-xl-6 my-4">
                             <div class=" d-flex align-items-center text-start gap-3">
                                 <div>
                                     <img class="imgmenu" src="/public/img/menu/tuscan-grilled.jpg" alt="">
@@ -465,6 +466,45 @@
                                         <span class="nommenu">Tuscan Grilled</span>
                                         <span class="dott"></span>
                                         <span class="menuprix">$9.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                       <!-- mozzarella stick colonne 2-->
+                       <div class="col-xl-6 my-4">
+                            <div class=" d-flex align-items-center text-start gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/mozzarella.jpg" alt="">
+                                </div>      
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Mozzarella Stick</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$4.95</span>
+                                    </div>
+                                    <div>
+                                        <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
+                                    </div>
+                                </div>
+                            </div>               
+                        </div>
+                    </div>
+                    <!-- plat 3-->
+                    <div class="row">
+                        <!-- lobster-roll colonne 1-->
+                        <div class="col-xl-6 my-4">
+                            <div class=" d-flex align-items-center text-start gap-3">
+                                <div>
+                                    <img class="imgmenu" src="/public/img/menu/lobster-roll.jpg" alt="">
+                                </div>
+                                <div class="listemenu gap-3">
+                                    <div class="d-flex justify-content-between">
+                                        <span class="nommenu">Lobster Roll</span>
+                                        <span class="dott"></span>
+                                        <span class="menuprix">$12.95</span>
                                     </div>
                                     <div>
                                         <p class="descpriptionmenu">Lorem ipsum dolor sit amet.</p>
@@ -533,36 +573,34 @@
                 <h2>Book a Table</h2>
             </div>
             <div>
-                <div class="container text-center">
-                <div class="">
-                    <div class="col">
-                        <input class="inputreserve" type="text" placeholder="Your Name" class="">
-                    </div>
-                    <div class="col">
-                        <input class="inputreserve" type="text" placeholder="Your Email" class="">
-                    </div>
-                    <div class="col">
-                        <input class="inputreserve" type="text" placeholder="Your Phone" class="">
-                    </div>
-                    </div>
+                <div class="container">
                     <div class="row">
-                        <div class="col">
+                        <div class="col-sm-1 col-md-6 col-xl-4">
+                            <input class="inputreserve" type="text" placeholder="Your Name" class="">
+                        </div>
+                        <div class="col-sm-1 col-md-6 col-xl-4">
+                            <input class="inputreserve" type="text" placeholder="Your Email" class="">
+                        </div>
+                        <div class="col-sm-1 col-md-6 col-xl-4">
+                            <input class="inputreserve" type="text" placeholder="Your Phone" class="">
+                        </div>
+                        <div class="col-sm-1 col-md-6 col-xl-4">
                             <input class="inputreserve" type="text" placeholder="Date" class="">
                         </div>
-                        <div class="col">
+                        <div class="col-sm-1 col-md-6 col-xl-4">
                             <input class="inputreserve" type="text" placeholder="Time" class="">
                         </div>
-                        <div class="col">
+                        <div class="col-sm-1 col-md-6 col-xl-4">
                             <input class="inputreserve" type="text" placeholder="# of people" class="">
                         </div>
                         <div>
-                            <textarea class="inputreserve" placeholder="Message" name="" id="Reservation"></textarea>
+                            <textarea class="inputreserve" cols="7" placeholder="Message" name="" id="Reservation"></textarea>
                         </div>
-                        <div class="mt-5">
+                        <div class="mt-5 d-flex justify-content-center">
                             <button type="button" class="bookatablereserve">Book a Table</button>
                         </div>
                     </div>
-                    </div>
+                </div>
                     <div>
 
                     </div>
@@ -572,35 +610,34 @@
 
    <!-- ------------------Gallery------------------------------------------------------- --> 
     <section class="section5" id="Gallery">
-        <div class="ms-5 mb-5">
+        <div class="m-5">
             <h6>GALLERY</h6>
             <h2>Some photos from Our Restaurant</h2>
         </div>
-
-        <div class="container m-3">
-            <div class="gallery">
-                <div class="galleryimg">
+        <div class="container-fluid">
+            <div class="gallery row">
+                <div class="galleryimg col-sm-3 col-md-4 col-xl-3">
                     <img src="/public/img/gallery/gallery-1.jpg" class="galleryimg2" width="100%;">
                 </div>
-                <div class="galleryimg">
+                <div class="galleryimg col-sm-3 col-md-4 col-xl-3">
                     <img src="/public/img/gallery/gallery-2.jpg" class="galleryimg2" width="100%;">
                 </div>
-                <div class="galleryimg">
+                <div class="galleryimg col-sm-3 col-md-4 col-xl-3">
                     <img src="/public/img/gallery/gallery-3.jpg" class="galleryimg2" width="100%;">
                 </div>
-                <div class="galleryimg">
+                <div class="galleryimg col-sm-3 col-md-4 col-xl-3">
                     <img src="/public/img/gallery/gallery-4.jpg" class="galleryimg2" width="100%;">
                 </div>
-                <div class="galleryimg">
+                <div class="galleryimg col-sm-3 col-md-4 col-xl-3">
                     <img src="/public/img/gallery/gallery-5.jpg" class="galleryimg2" width="100%;">
                 </div>
-                <div class="galleryimg">
+                <div class="galleryimg col-sm-3 col-md-4 col-xl-3">
                     <img src="/public/img/gallery/gallery-6.jpg" class="galleryimg2" width="100%;">
                 </div>
-                <div class="galleryimg">
+                <div class="galleryimg col-sm-3 col-md-4 col-xl-3">
                     <img src="/public/img/gallery/gallery-7.jpg" class="galleryimg2" width="100%;">
                 </div>
-                <div class="galleryimg">
+                <div class="galleryimg col-sm-3 col-md-4 col-xl-3">
                     <img src="/public/img/gallery/gallery-8.jpg" class="galleryimg2" width="100%;">
                 </div>
             </div>
@@ -609,9 +646,9 @@
 
    <!-- ------------------Chefs-------------------------------------------------- -->
     <section class="section6" id="Chefs">
-        <div class="ms-5 mb-5">
+        <div class="m-5">
             <h6>CHEFS</h6>
-            <h2>Our proffesional Chefs</h2>
+            <h2>Our professional Chefs</h2>
         </div>
         <div class="container">
             <div class="row">
@@ -690,8 +727,8 @@
         </div>
     <!-- ----------------------contact partie 2------------------------ -->
         <hr>
-        <div class="contact2 d-flex justify-content-center m-5">
-            <div class="contactpartie1 col">
+        <div class="contact2 m-5 row">
+            <div class="contactpartie1 col-md-6 col-xl-3">
                 <div class="contactparti1-col1">
                     <div>
                         <h4>CBIENBON</h4>
@@ -704,7 +741,7 @@
                         <p><b>Email:</b> info@example.com</p>
                     </div>
                 </div>
-                <div class="gap-2 d-flex">
+                <div class="gap-2 row mb-3">
                     <div class="iconecontact2">
                         <i class="bi bi-facebook"></i>
                     </div>
@@ -722,7 +759,7 @@
                     </div>
                 </div>
             </div>
-            <div class="contactpartie2 col">
+            <div class="contactpartie2 col-md-6 col-xl-3">
                     <h5>Useful Links</h5>
                     <div class="d-flex flex-row gap-2">
                         <i class="chevronright bi bi-chevron-right"></i>
@@ -740,13 +777,13 @@
                         <i class="chevronright bi bi-chevron-right"></i>
                         <p>Terms of service</p>
                     </div>
-                    <div class="d-flex flex-row gap-2">
+                    <div class="d-flex flex-row gap-2 mb-3">
                         <i class="chevronright bi bi-chevron-right"></i>
                         <p>Privacy policy</p>
                     </div>
             </div>
-            <div class="col">
-                <h5>Useful Links</h5>
+            <div class="col-md-6 col-xl-3 mb-3">
+                <h5>Our service</h5>
                     <div class="d-flex flex-row gap-2">
                         <i class="chevronright bi bi-chevron-right"></i>
                         <p>Web Design</p>
@@ -768,10 +805,13 @@
                         <p>Graphic Design</p>
                     </div>
             </div>
-            <div>
+            <div class="col-md-6 col-xl-3">
                 <h5>Our Newsletter</h5>
                 <p>Lorem ipsum dolor sit amet consectetur<br>adipisicing elit. Pariatur, minus?</p>
-                <button type="button" class="subscribe">Subscribe</button>
+                <div class="" >
+                    <input class="subscribeinput rounded-4" type="text">
+                    <button type="button" class="subscribe">Subscribe</button>
+                </div>
             </div>
         </div>
     </section>
