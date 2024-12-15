@@ -11940,7 +11940,7 @@ h2:nth-of-type(1), .h2:nth-of-type(1) {
 }
 
 .img-container:hover .flèche-haut, .img-container:hover .flèche-bas {
-  transform: scale(1.3);
+  transform: scale(1.2);
   transition: 0.4s ease-in-out;
 }
 
@@ -11950,7 +11950,7 @@ h2:nth-of-type(1), .h2:nth-of-type(1) {
 
 .imgabout {
   width: 100%;
-  height: 23em;
+  height: auto;
   border: solid 5px gray;
 }
 
@@ -11988,14 +11988,15 @@ h2:nth-of-type(1), .h2:nth-of-type(1) {
 
 .whyus1 {
   width: 100%;
+  margin: auto;
 }
 
 .whyus2 {
-  width: auto;
+  width: 100%;
   height: auto;
-  padding: 25px;
+  padding: 30px;
   background-color: rgb(43, 43, 43);
-  padding-top: 18px;
+  padding-top: 50px;
 }
 
 h3:nth-of-type(2), .h3:nth-of-type(2) {
@@ -12004,7 +12005,7 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
 }
 
 .whyus2:hover {
-  padding-top: 0px;
+  padding-top: 30px;
   background-color: rgb(212, 170, 98);
 }
 .whyus2:hover .chiffreblanc {
@@ -12080,11 +12081,7 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
 .section4-2 {
   width: 100%;
   height: auto;
-}
-
-.carouselimg {
-  width: 100%;
-  height: auto;
+  margin-bottom: 10px;
 }
 
 .inputreserve {
@@ -12136,6 +12133,10 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
 
 .cartegoogle {
   width: 100px;
+}
+
+.contactbis {
+  margin-right: auto;
 }
 
 .iconecontact {
