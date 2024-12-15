@@ -11884,11 +11884,17 @@ nav {
   border-bottom: gray solid 1px;
 }
 
+.navbar-toggler-icon {
+  background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"%3E%3Cpath fill="white" d="M0 0h30v4H0zm0 12h30v4H0zm0 12h30v4H0z"%3E%3C/path%3E%3C/svg%3E');
+}
+
 .bookatable {
+  margin-top: 10px;
   color: white;
   background: transparent;
   border-radius: 30px;
-  padding: 5px;
+  padding: 8px;
+  padding-inline: 30px;
   border: rgb(212, 170, 98) solid;
 }
 
@@ -11904,6 +11910,11 @@ nav {
   background-color: rgb(212, 170, 98);
 }
 
+.popup i {
+  width: 100px;
+  height: 100px;
+}
+
 h2:nth-of-type(1), .h2:nth-of-type(1) {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -11915,6 +11926,20 @@ h2:nth-of-type(1), .h2:nth-of-type(1) {
   background-blend-mode: overlay;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+.play-button {
+  position: relative;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 130px;
+  height: 130px;
+  background: rgb(212, 170, 98);
+  border-radius: 50%;
+  border: solid 20px rgba(0, 0, 0, 0.3);
+  font-size: 50px;
+  color: white;
 }
 
 .section2 {
@@ -12131,8 +12156,9 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
   height: auto;
 }
 
-.cartegoogle {
-  width: 100px;
+.map-container iframe {
+  width: 100%;
+  height: 20em;
 }
 
 .contactbis {

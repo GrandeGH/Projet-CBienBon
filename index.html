@@ -15,19 +15,19 @@
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarNavAltMarkup">
-                <div class="navbar-nav gap-4">
-                  <a class="nav-link text-warning active" aria-current="page" href="#Home">Home</a>
-                  <a class="nav-link text-light" href="#About">About</a>
-                  <a class="nav-link text-light" href="#Menu">Menu</a>
-                  <a class="nav-link text-light" href="#Events">Events</a>
-                  <a class="nav-link text-light" href="#Gallery">Gallery</a>
-                  <a class="nav-link text-light" href="#Chefs">Chefs</a>
-                  <a class="nav-link text-light" href="#Contact">Contact</a>
-                </div>
-              </div>
-              <div>
-                <button type="button" class="bookatable">Book a Table</button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav mx-auto gap-4">
+                        <a class="nav-link text-warning active" aria-current="page" href="#Home">Home</a>
+                        <a class="nav-link text-light" href="#About">About</a>
+                        <a class="nav-link text-light" href="#Menu">Menu</a>
+                        <a class="nav-link text-light" href="#Events">Events</a>
+                        <a class="nav-link text-light" href="#Gallery">Gallery</a>
+                        <a class="nav-link text-light" href="#Chefs">Chefs</a>
+                        <a class="nav-link text-light" href="#Contact">Contact</a>
+                    </div>
+                    <div class="d-flex ms-auto">
+                        <button type="button" class="bookatable">Book a Table</button>
+                    </div>
               </div>
             </div>
           </nav>
@@ -37,22 +37,27 @@
         <!-- <div class="d-flex align-items-start flex-column ms-5"> -->
         <div class="container">
             <div class="row">
-                <div class="col-sm-1 col-md-1 col-xl-10 ms-5">
-                    <div>       
+                <div class="col-sm-1 col-md-10 col-xl-10 ms-5">
+                    <div class="text-sm-center text-xl-start">       
                         <h2 class="fw-bold text-light fs-1">Welcome to <span class="jaunebrun">CBIENBON</span></h2>
                         <h4 class="serif text-light fs-2">Delivering great food for more than 18 years!</h4>
                     </div>
-                    <div class="row">
-                        <div class="mt-3 col-md-1 col-xl-6">
-                            <button type="button" class="bookatable col-md-6 col-xl-4">Book a Table</button>
-                            <button type="button" class="bookatable col-md-6 col-xl-4">Our menu</button>
+                    <div class="">
+                        <div class="row">
+                            <div class="text-md-center text-xl-start">
+                                <button type="button" class="bookatable">Book a Table</button>
+                                <button type="button" class="bookatable">Our menu</button>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-1 col-md-1 col-xl-1 mt-5">
-                    <a href=""></a>
-                        <div class="popup"></div>
-                    </a>
+                    <div class="d-flex flex-column justify-content-center align-items-center">
+                        <!-- Bouton Play -->
+                        <div class="play-button">
+                          <i class="bi bi-play-fill"></i>
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -669,10 +674,13 @@
             <h6>CONTACT</h6>
             <h2>Contact Us</h2>
         </div>
-        <div class="cartegoogle my-5">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2519.2257938900725!2d4.35
-1566061899506!3d50.845502912276125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sbe!4v1733840150399!5m2!1sfr!2sbe" class="" width="1260px" height="400px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
-        </div>
+        <div class="map-container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2519.2257938900725!2d4.351566061899506!3d50.845502912276125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2sbe!4v1733840150399!5m2!1sfr!2sbe" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy" 
+                    referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
         <div class=" container m-5">
            <div class="contactbis row">
             <div class="col-xl-4">
