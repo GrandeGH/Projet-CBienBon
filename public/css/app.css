@@ -11860,9 +11860,10 @@ body {
 }
 
 .serif, h2, .h2 {
-  font-family: "Times New Roman", Times, serif;
   font-weight: bold;
   color: rgb(212, 170, 98);
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 header {
@@ -11910,12 +11911,64 @@ nav {
 .popup i {
   width: 100px;
   height: 100px;
+  transition: 0.3s;
 }
 
-h2:nth-of-type(1), .h2:nth-of-type(1) {
-  font-family: Arial, Helvetica, sans-serif;
+.playfill:hover {
+  transition: 0.3s;
+  transform: scale(9);
+  overflow: hidden;
 }
 
+.containertest a {
+  text-decoration: none;
+}
+
+.play-btn {
+  background-color: rgb(212, 170, 98);
+  color: #fff;
+  font-size: 5em;
+  width: 110px;
+  height: 110px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 5px rgb(212, 170, 98), 0 0 10px rgb(212, 170, 98);
+  inset: 0 0 5px rgb(212, 170, 98);
+  inset: 0 0 10px rgb(212, 170, 98);
+}
+
+.play-btn i {
+  line-height: 150px;
+  margin-left: 7px;
+}
+
+.play-btn::before, .play-btn::after {
+  content: "";
+  position: absolute;
+  border: 2px solid rgb(212, 170, 98);
+  left: -10px;
+  right: -10px;
+  top: -10px;
+  bottom: -10px;
+  border-radius: 50%;
+  animation: animate 2s linear infinite;
+  opacity: 0;
+}
+
+@keyframes animate {
+  0% {
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
 .section1 {
   width: 100%;
   height: 43em;
@@ -11948,6 +12001,11 @@ h2:nth-of-type(1), .h2:nth-of-type(1) {
   background-repeat: no-repeat;
 }
 
+@media (max-width: 992px) {
+  .voluptetem > div {
+    flex-direction: column-reverse !important;
+  }
+}
 .iconcheck {
   color: rgb(212, 170, 98);
 }
@@ -11998,7 +12056,7 @@ h2:nth-of-type(1), .h2:nth-of-type(1) {
   width: 2rem;
   position: absolute;
   right: 2rem;
-  bottom: 1.5rem;
+  bottom: 2rem;
   border-color: rgb(212, 170, 98);
 }
 
@@ -12136,14 +12194,23 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
   height: auto;
 }
 
+.gallery {
+  margin-inline: 1px;
+}
+
 .galleryimg {
-  border: gray 2px solid;
+  border-bottom: 3px gray solid;
+  border-right: 3px gray solid;
   transition: 0.5s;
   overflow: hidden;
 }
 
-.galleryimg2:hover {
+.galleryimg2 {
   transform: scale(1.1);
+}
+
+.galleryimg2:hover {
+  transform: scale(1.2);
   transition: 0.5s;
 }
 
@@ -12164,6 +12231,10 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
 
 .contactbis {
   margin-right: auto;
+}
+
+.contact2 {
+  margin: auto;
 }
 
 .iconecontact {
@@ -12222,8 +12293,8 @@ h3:nth-of-type(2), .h3:nth-of-type(2) {
   font-size: 50px;
   color: rgb(212, 170, 98);
   position: fixed;
-  top: 11.5em;
-  left: 26em;
+  top: 12em;
+  left: 26.5em;
   z-index: 1000;
 }
 
