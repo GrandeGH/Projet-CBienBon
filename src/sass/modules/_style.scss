@@ -21,6 +21,7 @@ body {
 }
 
 // -----en tête-------------------------------------------
+
 header {
     width: 100%;
     height: auto;
@@ -58,90 +59,20 @@ nav {
     background-color: $jaunebrun;
 }
 
-.popup {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: $jaunebrun;
-}
-
-.popup i {
-    width: 100px;
-    height: 100px;
-    transition: 0.3s;
-}
-
-.playfill:hover {
-    transition: 0.3s;
-    transform: scale(9);
-    overflow: hidden;
-}
-
-// ---- animation popup -------
-// .containertest {
-//     display: flex;
-//     min-height: 100vh;
-//     align-items: center;
-//     justify-content: center;
-//     text-align: center;
-
-// }
-
-.containertest a {
-    text-decoration: none;
-}
-
-.play-btn {
-    background-color: $jaunebrun;
-    color: #fff;
-    font-size: 5em;
-    width: 110px;
-    height: 110px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    position: relative;
-    box-shadow:  0 0 5px $jaunebrun, 0 0 10px $jaunebrun;
-    inset: 0 0 5px $jaunebrun;
-    inset: 0 0 10px $jaunebrun;
-
-}
-
-.play-btn i{
-    line-height: 150px;
-    margin-left: 7px;
-}
-
-.play-btn::before, .play-btn::after {
-    content: '';
-    position: absolute;
-    border: 2px solid $jaunebrun;
-    left: -10px;
-    right: -10px;
-    top: -10px;
-    bottom: -10px;
-    border-radius: 50%;
-    animation: animate 2s linear infinite;
-    opacity: 0;
-}
-
-@keyframes animate {
-    0% {
-        transform: scale(0.5);
-
-    }
-    50% {
-        opacity: 1;
-    }
-    100% {
-        transform: scale(1.3);
-
-    }
-}
 
 // ----- Home -------------------------------------------
 
+
+@media (max-width:550px) {
+    .home {
+        display: inline;
+        justify-content: center;
+    }
+}
+
+h2:nth-child(1) {
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 .section1 {
     width: 100%;
@@ -165,6 +96,99 @@ nav {
     font-size: 50px;
     color: white; 
   }
+
+
+
+  // ---- animation popup -------
+
+.containertest a {
+    text-decoration: none;
+}
+
+.play-btn {
+    background-color: $jaunebrun;
+    color: #fff;
+    font-size: 5em;
+    width: 110px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    position: relative;
+    box-shadow:  0 0 5px $jaunebrun, 0 0 10px $jaunebrun;
+    inset: 0 0 5px $jaunebrun;
+    inset: 0 0 10px $jaunebrun;
+    // overflow: hidden;
+    cursor: pointer;
+
+
+    // animation bouton play
+
+    // &:hover i {
+    //     animation: pulse 0.8s infinite ease-out;
+    // }
+
+    // &::before, 
+    // &::after {
+    //     content: '';
+    //     position: absolute;
+    //     border: 2px solid transparent;
+    //     border-radius: 50%;
+    //     opacity: 1;
+    // }
+}
+
+
+.play-btn i{
+    line-height: 150px;
+    margin-left: 7px;
+}
+
+
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(8); /* Agrandit légèrement */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+// animation pulse exterieur
+.play-btn2::before, .play-btn::after {
+    content: '';
+    position: absolute;
+    border: 5px solid $jaunebrun;
+    left: -10px;
+    right: -10px;
+    top: -10px;
+    bottom: -10px;
+    border-radius: 50%;
+    animation: animate 2s linear infinite;
+    opacity: 0;
+    z-index: 100;
+}
+
+
+@keyframes animate {
+    0% {
+        transform: scale(0.5);
+
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        transform: scale(1.3);
+
+    }
+}
 
 // ----- About -------------------------------------------
 
