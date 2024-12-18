@@ -379,7 +379,15 @@ h3:nth-of-type(2) {
 }
 
 .carousel-indicators {
-    bottom: -40px;
+    bottom: -50px;
+    gap: 10px;
+    button {
+        background-color: $jaunebrun !important;
+        width: 20px !important;
+        height: 20px !important;
+        border-radius: 50%;
+    }
+
 }
 
 
