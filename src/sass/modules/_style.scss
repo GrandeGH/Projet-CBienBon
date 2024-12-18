@@ -62,11 +62,21 @@ nav {
 
 // ----- Home -------------------------------------------
 
+.home {
+    gap: 10px;
+}
 
-@media (max-width:550px) {
+.home {
+    button {
+        width: auto;
+    }
+}
+
+@media (max-width:570px) {
     .home {
-        display: inline;
-        justify-content: center;
+        display: flex !important; 
+        align-items: center !important;
+        justify-content: center !important;
     }
 }
 
@@ -152,7 +162,7 @@ h2:nth-child(1) {
         transform: scale(1);
     }
     50% {
-        transform: scale(8); /* Agrandit légèrement */
+        transform: scale(8); 
     }
     100% {
         transform: scale(1);
@@ -276,6 +286,12 @@ h2:nth-child(1) {
     margin-bottom: 10px;
 }
 
+.line {
+    height: 1px;
+    background-color: #9c9c9c; /* Couleur gris clair */
+    width: 100px; /* Largeur personnalisée pour la ligne */
+}
+
 .whyus1 {
     width: 100%;
     margin: auto;
@@ -383,8 +399,8 @@ h3:nth-of-type(2) {
     gap: 10px;
     button {
         background-color: $jaunebrun !important;
-        width: 20px !important;
-        height: 20px !important;
+        width: 15px !important;
+        height: 15px !important;
         border-radius: 50%;
     }
 
